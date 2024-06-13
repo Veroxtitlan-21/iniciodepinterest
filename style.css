@@ -1,0 +1,197 @@
+/*comentario*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw; /*Viewport Width*/
+    height: 80px;
+    font-size: 16px;
+    padding: 0px 16px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+header nav img#pinterest-icon{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+}
+
+header nav img#pinterest-icon:hover{
+    background-color: #E9E9E9;
+    border-radius: 150px;
+}
+
+.first-list{
+    display: flex;
+}
+
+.first-list a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.first-list li{
+    list-style: none;
+    padding: 0px 12px;
+}
+
+.first-list li #inicio{
+    background-color: black;
+    color: white;
+    padding: 14px 12px;
+    border-radius: 150px;
+}
+
+/*Estilos Barra Busqueda*/
+
+.search{
+    flex-grow: 1;
+    height: 48px;
+    background-color: #E9E9E9;
+    border-radius: 30px;
+}
+
+.search:hover{
+    background-color: #e1e1e1;
+}
+.search:focus-within{
+    border: 4px solid #7fc1ff;
+}
+.barra{
+    display: flex;
+    align-items: center;
+    height: 48px;
+}
+
+#lupa{
+    padding: 13px;
+    color: #767676;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.barra input{
+    border: none;
+    outline: none; /*Para que no se vea el borde*/
+
+    background-color: inherit;
+    padding: 0px 8px 0px 0px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+/*Estilos iconos derecha*/
+
+.right-items span{
+    padding: 8px;
+    color: #767676;
+    font-size: 28px;
+}
+.right-items span:hover{
+    background-color: #E9E9E9;
+    border-radius: 150px; /*Para que se redondee*/
+
+    cursor: pointer;
+}
+
+/*Estilos para las cards*/
+
+.contenido{
+    position: absolute; /*Para que se mantenga en la misma posicion*/
+    margin-top: 70px;
+    padding-right: 5px;
+}
+
+.imagenes{
+    columns: 6 210px;
+    margin: auto; /*Para que se centre*/
+
+}
+
+.imagenes .card-image{
+    position: relative; /*Para que se mantenga en la misma posicion*/
+    padding: 6px;
+}
+
+.imagenes .card-image img{
+    border-radius: 15px;
+    min-height: 260px; /*Para que no se vea la imagen demasiado pequeña*/
+    max-width: 260px; /*Para que no se vea la imagen demasiado pequeña*/
+}
+
+.card-image:hover > :first-child{ 
+    filter: brightness(60%); /*Para que se vea un poco oscura la imagen cuado se pase el cursor*/
+}
+
+.card-image:hover > *{
+    visibility: visible; /*Para que se vea el icono*/
+    display: inline; 
+}
+
+.button{
+    position: absolute;
+    left: 63%;
+    top: 5%;
+    padding: 13px 15px;
+    background-color: #e60023;
+    border-radius: 30px;
+    border: none;
+    visibility: hidden;
+    display: none;
+}
+
+.imagenes .card-image button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.oculto-1{
+    position: absolute;
+    left: 67%;
+    bottom: 8%;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    visibility: hidden;
+    display: none;
+}
+
+.oculto-2{
+    position: absolute;
+    left: 82%;
+    bottom: 8%;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    padding: 4px;
+    visibility: hidden;
+    display: none;
+}
+
+main{
+    padding: 10px 50px 10px 90px;
+    margin: auto;
+}
