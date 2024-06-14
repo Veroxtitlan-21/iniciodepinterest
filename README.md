@@ -1,5 +1,5 @@
 # Copia de Pinterest con HTML5 y CSS3
-ESte proyecto es un clon de la interfaz de inicio de Pinterest
+ESte proyecto es un clon de la interfaz de inicio de Pinterest, creado puramente con HTML5 y CSS3 
 
 ### Características
 + **Interfaz de Usuario Intuitiva:** Inspirada en [Pinterest](https://www.pinterest.com.mx/), con una navegación fácil y accesible.
@@ -12,6 +12,7 @@ ESte proyecto es un clon de la interfaz de inicio de Pinterest
 + **Google Icons:** Para iconos personalizados.
 
 ### Vista Previa del Proyecto
+![DEMO]()
 
 ### Contacto
 Verónica Maldonado: [Mi Instagram](https://www.instagram.com/veroxtitlan/)
