@@ -12,7 +12,7 @@ ESte proyecto es un clon de la interfaz de inicio de Pinterest, creado puramente
 + **Google Icons:** Para iconos personalizados.
 
 ### Vista Previa del Proyecto
-![DEMO](/imagenesvistaprevia.jpg)
+![DEMO](https://github.com/Veroxtitlan-21/iniciodepinterest/blob/9c049e6066873eae45e7f1f94bdc22a62168495d/vistaprevia.jpg)
 
 ### Contacto
 Verónica Maldonado: [Mi Instagram](https://www.instagram.com/veroxtitlan/)
